@@ -26,10 +26,16 @@ div a img {
 
 iframe {
   margin-bottom: 30px;
+  width: 80%;
+}
+@media (min-width: 1000px) {
+  iframe {
+    width: 50%;
+  }
 }
 ul {
+  display: inline-block;
   text-align: right;
-  width: max-content;
   margin: 40px auto;
   color: black;
   font-size: 1.4em;
