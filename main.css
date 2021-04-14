@@ -1,0 +1,42 @@
+body {
+  background: url("./pngtree-cartoon-fresh-grass-background-material-image_130053.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+h1 {
+  display: inline-block;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 50px;
+  margin-top: 40px;
+  background-color: rgb(16, 134, 180);
+  color: white;
+  text-align: center;
+}
+
+div a img {
+  width: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+iframe {
+  margin-bottom: 30px;
+  width: 80%;
+}
+@media (min-width: 1000px) {
+  iframe {
+    width: 50%;
+  }
+}
+ul {
+  text-align: right;
+  width: fit-content;
+  margin: 40px auto;
+  color: black;
+  font-size: 1.4em;
+}
