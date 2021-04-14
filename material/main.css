@@ -27,3 +27,10 @@ div a img {
 iframe {
   margin-bottom: 30px;
 }
+ul {
+  text-align: right;
+  width: max-content;
+  margin: 40px auto;
+  color: black;
+  font-size: 1.4em;
+}
